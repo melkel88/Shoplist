@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+   <top>
+      <Label text="Shop List App" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="Gurmukhi MN" size="41.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <ListView fx:id="shoplistLV" maxHeight="300.0" maxWidth="400.0" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </ListView>
+   </center>
+</BorderPane>
